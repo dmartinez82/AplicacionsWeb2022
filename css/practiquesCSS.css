@@ -6,11 +6,38 @@ h1 {
 
 h2{
     font-family: 'Noto Sans JP', sans-serif;
+    min-width: 100px;
+    max-width: 300px;
+    border: 2px solid black;
+    margin: 10px 40px 30px 60px;
+    padding: 15px;
 }
 
 p, a{
     font-size: 300%;
 }
+#padre{
+    width: 75%;
+}
+
+#hijo1, #hijo2{
+    width: 40%;
+}
+
+#hijo1{
+    border: 2px solid green;
+    float: left;
+}
 
 
+#hijo2{
+    border: 2px solid blue;
+    float: right;
+}
 
+#discord{
+    color: red;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
