@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./formulari.html" method="get">
+
+        <div id="dadesPersonals">
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" id="nom" placeholder="Menganito" required>
+    
+            <label for="llin1">Llinatge 1:</label>
+            <input type="text" name="llin1" id="llin1" placeholder="De tal" required>
+    
+            <label for="llin2">Llinatge 2:</label>
+            <input type="text" name="llin2" id="llin2" placeholder="Cual" >
+        </div>
+
+        <!--    Checkpoint 18:20 -->
+
+        <div id="sexe">
+            <label for="sexe">Sexe:</label>
+            <input type="radio" name="sexe" id="home" value="H" required>Home
+            <input type="radio" name="sexe" id="dona" value="D" required>Dona
+
+            <label for="color">Color favorit</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div id="login">
+            <label for="correu">Email</label>
+            <input type="email" name="correu" id="correu" placeholder="example@mail.com" required>
+            
+            <label for="passwd">Password</label>
+            <input type="password" name="passwd" id="passwd" required>
+        </div>
+
+        <!--    Checkpoint 18:32 -->
+        
+        <div>
+            <label for="dataNaix">Data de naixement:</label>
+            <input type="date" name="dataNaix" id="dataNaix" required>
+        </div>
+
+        <div>
+            <label for="termes">Estic d'acord amb els termes</label>
+            <input type="checkbox" name="termes" id="termes" value="S" required>
+        </div>
+
+        <div id="enviament">
+            <input type="submit" value="Envia">
+            <input type="reset" value="Esborra tot">
+        </div>
+
+        <!-- Checkpoint 18:42 -->
+
+    </form>
+    
+</body>
+</html>
