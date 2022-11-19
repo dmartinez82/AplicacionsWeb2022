@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>El meu formulari</h1>
+
     <form action="./formulari.html" method="get">
 
         <div id="dadesPersonals">
@@ -23,12 +26,11 @@
         <!--    Checkpoint 18:20 -->
 
         <div id="sexe">
-            <label for="sexe">Sexe:</label>
-            <input type="radio" name="sexe" id="home" value="H" required>Home
-            <input type="radio" name="sexe" id="dona" value="D" required>Dona
-
-            <label for="color">Color favorit</label>
-            <input type="color" name="color" id="color">
+            <label>Sexe:</label>
+            <input type="radio" name="sexe" id="home" value="H" required>
+            <label for="home">Home</label>
+            <input type="radio" name="sexe" id="dona" value="D" required>
+            <label for="dona">Dona</label>
         </div>
 
         <div id="login">
@@ -49,6 +51,11 @@
         <div>
             <label for="termes">Estic d'acord amb els termes</label>
             <input type="checkbox" name="termes" id="termes" value="S" required>
+        </div>
+
+        <div>
+            <label for="color">Color favorit</label>
+            <input type="color" name="color" id="color">
         </div>
 
         <div id="enviament">
